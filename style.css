@@ -1,0 +1,65 @@
+
+body {
+    background-color: #f4978e; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    margin: 0;
+    padding-top: 50px;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+
+.main-wrapper {
+    display: flex;
+    flex-direction: row; 
+    gap: 20px;           
+    align-items: flex-start; 
+}
+
+
+.input {
+    background-color: #8c92e8;
+    padding: 20px;
+    border-radius: 12px;
+    width: 280px;
+    display: flex;
+    flex-direction: column; 
+}
+
+
+.addBtn {
+    align-self: center; 
+    margin-top: 15px;
+    padding: 10px 30px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+
+.inputCard {
+    background-color: #2ecc71;
+    padding: 20px;
+    border-radius: 12px;
+    display: none; 
+    flex-direction: column;
+    gap: 10px;
+    width: 250px;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box; 
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    margin: 10px 0 5px 0;
+}
